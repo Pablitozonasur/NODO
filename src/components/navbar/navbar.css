@@ -1,0 +1,13 @@
+.NavBarContent {
+    background-color: #2b2929;
+}
+
+.navlink:hover{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff88;
+}
+
+.white-text {
+    color: whitesmoke;
+  }
