@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import './firebase'
+import './firebase';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'animate.css/animate.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
