@@ -66,7 +66,7 @@ function Slider() {
       <Carousel.Item >
         <img
           className="d-block w-100"
-          src="imagenes/img7.jpg"
+          src="img7.jpg"
           alt="Second slide"
           style={{ width: '100%', height: '400px' }}
         />
@@ -78,7 +78,7 @@ function Slider() {
       <Carousel.Item >
         <img
           className="d-block w-100 "
-          src="imagenes/img7.jpg"
+          src="img7.jpg"
           alt="Third slide"
           style={{ width: '100%', height: '400px' }}
         />
