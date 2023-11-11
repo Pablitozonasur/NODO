@@ -13,7 +13,7 @@ function NavBar() {
 
 
 
-           <img className=" d-inline-block align-top "  src="imagenes/zyro-image.png" width="60" height="60" /> </Navbar.Brand>
+           <img className=" d-inline-block align-top "  src="imagenes/logo-mejorao.png" width="60" height="60" /> </Navbar.Brand>
 
 
           <Nav className=" nav-link">
