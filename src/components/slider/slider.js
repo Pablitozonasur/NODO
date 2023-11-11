@@ -6,26 +6,40 @@ import Button from 'react-bootstrap/Button';
 import './slider.css';
 
 
-function DarkVariantExample() {
+function Slider() {
   return (
- 
-    <Carousel data-bs-theme="dark" style={{ width: '100%', height: '100%' }}>
+    <Carousel data-bs-theme="dark">
+      <Carousel.Item>
+  
+  
+        <img   src="/imagenes/portada.jpg"
+                 alt="Sec slide"
+                 style={{ width: '100%', height: '400px' }}       
+                       />
+  
+  
+  
+  
+        <Carousel.Caption>
+  
+        </Carousel.Caption>
+      </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100 "
-          src="/img7.jpg"
-          alt="First slide"
+          src="imagenes/fonde.jpg"
+          alt="Second slide"
           style={{ width: '100%', height: '400px' }}
         />
        
-        <Carousel.Caption  style={{ color:'black' }}>
+        <Carousel.Caption  >
       
-            <Container  style={{ color:'black' }}>
+            <Container >
                  <Row>
                     <Col>
                     <div align="left"  style={{ color:'black' }}>
                        <h5>Nombre del nuevo producto</h5>
-                       <p style={{ color:'black' }}>Descripcion del producto
+                       <p >Descripcion del producto
                           es una obra de escultura, especialmente en madera.
                           La madera se talla mediante un proceso de desgaste
                           y pulido, con el propósito de darle una forma
@@ -38,7 +52,7 @@ function DarkVariantExample() {
                     <Col>
                     
                       <div className="imagen-animacion">                     
-                         <img  src="/img4.jpg"
+                         <img  src="imagenes/img4.jpg"
                          alt="Second slide"
                           />
                        
@@ -52,7 +66,7 @@ function DarkVariantExample() {
       <Carousel.Item >
         <img
           className="d-block w-100"
-          src="/img7.jpg"
+          src="imagenes/img7.jpg"
           alt="Second slide"
           style={{ width: '100%', height: '400px' }}
         />
@@ -64,7 +78,7 @@ function DarkVariantExample() {
       <Carousel.Item >
         <img
           className="d-block w-100 "
-          src="/img7.jpg"
+          src="imagenes/img7.jpg"
           alt="Third slide"
           style={{ width: '100%', height: '400px' }}
         />
@@ -80,6 +94,6 @@ function DarkVariantExample() {
   );
 }
 
-export default DarkVariantExample;
+export default Slider;
 
 

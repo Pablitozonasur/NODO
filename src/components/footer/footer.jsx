@@ -11,7 +11,7 @@ const Footer =() => {
                 <div className='container'>
                     <nav className='row'>
                     <Link to='/inicio' className='col-12 col-md-3 d-flex aling-items-center justyfy-content-center'>
-                            <img src='./logo-mejorao.png' className='mx-2 ' height={200}/>
+                            <img src='imagenes/logo-mejorao.png' className='mx-2 ' height={200}/>
 
                             </Link> 
                             <ul className='col-12 col-md-3 list-unstyled'>
