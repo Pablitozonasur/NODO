@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 function Categoria1() {
   return (
     <Card style={{ width: '15rem' }}>
-      <Card.Img variant="top"  src="/img5.jpg" />
+      <Card.Img variant="top"  src="imagenes/img5.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
          <h6> Precio:$0000 </h6>    
