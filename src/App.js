@@ -4,26 +4,22 @@ import NavBar from "./components/navbar/navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Register } from "./components/Register";
 import Footer from "./components/footer/footer";
-import Cards from "./components/Cards";
+import Cards from "./components/Card/Cards";
+import Categoria1 from "./components/Categoria/categoria1";
+import Categoria2 from "./components/Categoria/categoria2";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <Routes>
-          <Route path="/" element={"/"} />
-          <Route path="/category/:categoryId" element={"/"} />
-          <Route path="products/:productId" element={"/"} />
-          <Route path="/category/:category/products/:productId" element={"/"} />
-          <Route path="*/products/:productId" element={"/"} />
-          <Route path="/cart" element={"/"} />
-          <Route path="/nosotros" element={"/"} />
-          <Route path="*" element={"/"} />
-        </Routes>
-        <Slider>
         
-        </Slider>
+        <Routes>
+          <Route  path='/' element={<Slider/> } /> 
+          <Route  path='/slider' element={<Slider/>} />
+          <Route path='/categoria1' element={<Categoria1/>} />
+          <Route path='/categoria2' element={<Categoria2/>} />
+        </Routes>
         <Cards />
         <Register/>
         <Footer/>
